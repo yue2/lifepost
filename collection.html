@@ -1,0 +1,15 @@
+---
+title: Collections
+layout: default
+---
+<h1>Collections</h1>
+
+<ul>
+  {% for tag in site.tags %}
+    <li>
+      <h2><a href="{{tag.url}}">{{ tag.tag_name }}</a></h2>
+      
+      <p>{{ tag.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

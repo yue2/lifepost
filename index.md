@@ -1,6 +1,6 @@
 ---
 title: Welcome
-layout: default
+
 ---
 ## Welcome to My Post
 
